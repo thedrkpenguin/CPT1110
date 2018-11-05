@@ -5,4 +5,8 @@ def area(radius):
 
 def circumference(radius):
     return 2 * math.pi * radius
-    
+
+if __name__ == "__main__":
+    print("This is circle running normal")
+else:
+    print("This is circle being imported")
